@@ -2,6 +2,8 @@
 
 Um dashboard meteorológico moderno desenvolvido com HTML, CSS e JavaScript, capaz de consultar condições climáticas em tempo real para cidades do mundo inteiro.
 
+Veja em: [Clique aqui](https://weatherdashboardtestsite.netlify.app/)
+
 O projeto utiliza APIs externas para obter informações atualizadas sobre temperatura, velocidade do vento, sensação térmica e condições climáticas, exibindo os dados em uma interface intuitiva e responsiva.
 
 ---
