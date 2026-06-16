@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Weather Dashboard</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>🌤️ Weather Dashboard - @kolzzdev</h1>
+
+    <div class="search">
+
+        <input
+        type="text"
+        id="city"
+        placeholder="Digite uma cidade">
+
+        <button onclick="buscarClima()">
+            Buscar
+        </button>
+
+    </div>
+
+    <div id="weatherCard" class="card">
+
+        <h2 id="cidade">---</h2>
+
+        <div id="icone" class="icon">
+            ☀️
+        </div>
+
+        <h1 id="temperatura">
+            --°C
+        </h1>
+
+        <p id="condicao">
+            ---
+        </p>
+
+        <div class="details">
+
+            <div>
+                💨
+                <span id="vento">
+                    --
+                </span>
+                km/h
+            </div>
+
+            <div>
+                🌡️
+                <span id="sensacao">
+                    --
+                </span>
+                °C
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
